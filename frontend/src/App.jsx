@@ -195,7 +195,8 @@ function App() {
 
     try {
       // --- IMPORTANT: Update this to your deployed Render URL! ---
-       const apiUrl = `http://localhost:8080/api/solve?n=${n}`;
+      // const apiUrl = `http://localhost:8080/api/solve?n=${n}`;
+      const apiUrl = `https://nqueenbacktracking-production.up.railway.app/api/solve?n=${n}`;
      // const apiUrl = `https://n-queens-api.onrender.com/api/solve?n=${n}`; // Or your localhost for testing
       
       const response = await axios.get(apiUrl);
